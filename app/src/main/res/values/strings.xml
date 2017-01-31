@@ -6,5 +6,14 @@
     <string name="text_content">CollapsingToolbarLayout is a wrapper for Toolbar which implements a collapsing app bar. It is designed to be used as a direct child of a AppBarLayout.</string>
 
     <string name="user_name">Developer Niks</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        Menus \n
+        Menus display a list of choices on a transient sheet of material.\n
+
+        Menus appear upon interaction with a button, action, or other control. They display a list of choices, with one choice per line.\n
+
+        Menu items may be disabled if not applicable to a certain context. Contextual menus dynamically change their available menu items based on the current state of the app.\n
+    </string>
 
 </resources>

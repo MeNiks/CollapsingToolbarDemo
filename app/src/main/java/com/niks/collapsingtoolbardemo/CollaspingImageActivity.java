@@ -13,14 +13,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends AppCompatActivity {
+public class CollaspingImageActivity extends AppCompatActivity {
 
     private CollapsingToolbarLayout collapsingToolbarLayout = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_collasping_image);
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
             @Override
             public void onGenerated(Palette palette) {
-                collapsingToolbarLayout.setContentScrimColor(palette.getMutedColor(ContextCompat.getColor(MainActivity.this, R.color.primary)));
-                collapsingToolbarLayout.setStatusBarScrimColor(palette.getMutedColor(ContextCompat.getColor(MainActivity.this, R.color.primary_dark)));
+                collapsingToolbarLayout.setContentScrimColor(palette.getMutedColor(ContextCompat.getColor(CollaspingImageActivity.this, R.color.primary)));
+                collapsingToolbarLayout.setStatusBarScrimColor(palette.getMutedColor(ContextCompat.getColor(CollaspingImageActivity.this, R.color.primary_dark)));
             }
         });
     }

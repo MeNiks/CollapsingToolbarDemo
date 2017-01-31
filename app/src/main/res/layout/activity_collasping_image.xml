@@ -46,11 +46,11 @@
             android:orientation="vertical"
             android:paddingTop="10dp">
 
-            <include layout="@layout/card_layout" />
+            <include layout="@layout/activity_collasping_image_item" />
 
-            <include layout="@layout/card_layout" />
+            <include layout="@layout/activity_collasping_image_item" />
 
-            <include layout="@layout/card_layout" />
+            <include layout="@layout/activity_collasping_image_item" />
 
         </LinearLayout>
 

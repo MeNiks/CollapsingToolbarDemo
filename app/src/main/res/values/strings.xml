@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CollapsingToolbarDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_content">CollapsingToolbarLayout is a wrapper for Toolbar which implements a collapsing app bar. It is designed to be used as a direct child of a AppBarLayout.</string>
+
+    <string name="user_name">Developer Niks</string>
+
+</resources>

@@ -12,7 +12,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
+/**
+ * Created by niks
+ */
 public class CollaspingImageActivity extends AppCompatActivity {
 
     private CollapsingToolbarLayout collapsingToolbarLayout = null;

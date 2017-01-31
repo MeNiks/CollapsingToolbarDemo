@@ -8,9 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by niks on
+ * Created by niks
  */
-
 public class CollaspingInFragment extends Fragment {
 
     @Override

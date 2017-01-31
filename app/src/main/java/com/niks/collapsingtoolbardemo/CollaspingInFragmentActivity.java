@@ -4,6 +4,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * Created by niks
+ */
 public class CollaspingInFragmentActivity extends AppCompatActivity {
 
     @Override
